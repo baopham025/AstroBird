@@ -1,0 +1,29 @@
+{
+  "name": "astro-bird",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~47.0.9",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "matter-js": "^0.18.0",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-game-engine": "^1.2.0",
+    "expo-font": "~11.0.1",
+    "expo-app-loading": "~2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "typescript": "^4.6.3",
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6"
+  },
+  "private": true
+}
